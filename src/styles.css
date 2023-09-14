@@ -11,3 +11,17 @@
 a{
   text-decoration: none;
 }
+
+hr{
+  border-color: #161616;
+}
+
+.root{
+  padding: .5rem;
+}
+
+@media screen and (min-width: 500px) {
+  .root{
+    padding: 1rem;
+  }
+}

@@ -1,11 +1,10 @@
-.container__big-card{
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 400px;
+.container__big-card-contente{
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+
 }
 
 .big-card__photo{
@@ -13,7 +12,7 @@
 }
 
 .big-card__photo > img{
-  height: 200px;
+  height: auto;
   width: 100%;
 }
 
@@ -28,4 +27,20 @@
 
 .big-card__description > p{
   color: #414141;
+}
+
+.container__small-card__separator{
+  margin-top: 1rem;
+  display: block;
+}
+
+@media screen and (min-width: 1040px) {
+  .big-card__photo > img{
+    height: 200px;
+    width: 100%;
+  }
+
+  .container__small-card__separator{
+    display: none;
+  }
 }
